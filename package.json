@@ -1,0 +1,17 @@
+{
+  "name": "ipv4-to-cf-proxy",
+  "version": "1.0.0",
+  "description": "IPv4 to Cloudflare Proxy Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "net": "^1.0.2",
+    "axios": "^1.6.2",
+    "ip": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
